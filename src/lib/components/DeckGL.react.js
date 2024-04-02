@@ -15,7 +15,7 @@ import GL from '@luma.gl/constants';
 
 import * as LumaGL from '../lumagl';
 import makeTooltip from '../tooltip';
-
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 // CSV loader is needed to download and read CSV Files
 registerLoaders(CSVLoader);
